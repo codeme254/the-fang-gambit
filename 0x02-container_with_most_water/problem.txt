@@ -1,0 +1,19 @@
+You are given an array of positive integers where each integer represents the height of a vertical line on a chart. Find two lines which together with the x-axis forms a container that would hold the greatest amount of water. Return the area of the water it would hold.
+
+
+CONSTRAINTS
+Does the thickness of the lines affect the area? No, assume they take up no space.
+Do the left and right sides count as walls? No the sides cannot be used to form a container.
+Does a higher line inside our container affect the area ? No, lines inside a container don't affect the area.
+
+[7, 1, 2, 3, 9]
+obviously 7 and 9
+length = smaller of the two i.e 7
+width = index of 9 - index of 7 i.e 4 - 0 = 4
+area = 7 * 4 = 28.
+
+
+[] = 0
+[9] = 0
+
+[6, 9, 3, 4, 5, 8] = 9 and 8 = 8 * 4 = 32
