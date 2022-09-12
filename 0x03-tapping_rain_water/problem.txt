@@ -1,0 +1,25 @@
+Given an array of integers representing an elevation map where the width of each bar is 1, return how much rainwater can be trapped.
+
+Constraints
+Do the left and the right sides of the graph count as walls? No, the sides are not walls.
+Will there be negative integers? No, assume all integers will be positive.
+
+Test cases
+[0, 1, 0, 2, 1, 0, 3, 1, 0, 1, 2] should return 8.
+[] returns 0
+[3] returns 0
+
+[3, 4, 3] returns 0, looking at the graph below, no rainwater can be tapped. Any water would flow out on the sides.
+
+4_ |   __
+3_ |__|  |__
+2_ |  |  |  |
+1_ |__|__|__|__
+
+Hint for a brute force solution:
+At any array point p or rather at any point p,
+the rainwater able to be stored at that point is calculated by:
+Taking the maximum of all values to its left, eg maxLeft
+Taking the maximum of all values to its right, eg maxRight
+Taking the minimum of maxLeft and maxRight min(maxLeft, maxRight)
+Subtracting current heght from the minimum above
