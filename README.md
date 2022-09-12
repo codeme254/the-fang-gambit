@@ -9,4 +9,4 @@
 
 4. [Validate sub-sequence](./0x04-validate_subsequence/problem.txt) <--||--> [Validate sub-sequence solution](./0x04-validate_subsequence/optimized.js)
 
-5. [Sorted squared array](./0x05-sorted_squared_array/problem.txt) <--||--> [Sorted squared array solution](./0x05-sorted_squared_array/optimized.js)
+5. [Sorted squared array](./0x05-sorted_squared_array/problem.txt) <--||--> [Sorted squared array solution](./0x05-sorted_squared_array/optimized.ins.js)
