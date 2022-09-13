@@ -10,3 +10,8 @@
 4. [Validate sub-sequence](./0x04-validate_subsequence/problem.txt) <--||--> [Validate sub-sequence solution](./0x04-validate_subsequence/optimized.js)
 
 5. [Sorted squared array](./0x05-sorted_squared_array/problem.txt) <--||--> [Sorted squared array solution](./0x05-sorted_squared_array/optimized.ins.js)
+
+6. Backspace String compare
+   - [Problem, constraints and test cases](./0x06-backspace_string_compare/problem.txt)
+   - [Brute force solution](./0x06-backspace_string_compare/brute-force.js)
+   - [optimized solution](./0x06-backspace_string_compare/optimized.ins.js);

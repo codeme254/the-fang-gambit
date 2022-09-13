@@ -1,0 +1,30 @@
+Given two strings S and T, return if they are equal when both are type out.
+Any '#' that appears in the string counts as backspace.
+
+e.g
+"cb#d" -> typed to "cd" // the hash deleted the b
+
+S: "ab#c" T: "az#c"
+S: "ac" T: "ac"
+and thus true will be returned.
+
+What happens when two # appear beside each other ? Delete two values before the first #
+eg "ab##" === ""    "abc##" === "a"
+
+What happens to hashes when there is no character to remove? It deletes nothing, just like backspace key on the keyboard would do
+"a###b" === "b"
+
+Are two empty strings equal to each other? Yes consider two empty strings as equal
+S: "x#y#z#" T: "k#"
+S: ""   T: ""
+
+Does case sensitivity matter? Yes it does, "a" does not equal "A".
+
+
+Test cases
+==========
+S: "ab#z" T: "az#z" true
+S: "abc#d" T: "acc#c" false
+S: "x#y#z#" T: "a#" true
+S: "a###b" T: "b" true
+S: "Ab#z" T: "ab#z" false
