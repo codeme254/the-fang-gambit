@@ -27,9 +27,9 @@
   - [optimized solution](./0x05-sorted_squared_array/optimized.ins.js)
 
 6. Backspace String compare
-   - [Problem, constraints and test cases](./0x06-backspace_string_compare/problem.txt)
-   - [Brute force solution](./0x06-backspace_string_compare/brute-force.js)
-   - [optimized solution](./0x06-backspace_string_compare/optimized.ins.js);
+  - [Problem, constraints and test cases](./0x06-backspace_string_compare/problem.txt)
+  - [Brute force solution](./0x06-backspace_string_compare/brute-force.js)
+  - [optimized solution](./0x06-backspace_string_compare/optimized.ins.js);
 
 7. Longest sub-string without repeating characters
   - [Problem, constraints and test cases](./0x07-longest_substring_without_repeating_characters/problem.txt)
