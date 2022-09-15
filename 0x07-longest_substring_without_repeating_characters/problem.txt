@@ -1,0 +1,18 @@
+Given a string, find the length of the longest sub-string without repeating characters.
+
+"abccabb" output will be 3 due to "abc" or "cab"
+
+
+constraints
+Is the string contiguous? Yes, look for a sub-string and not a sub-sequence.
+contiguous means the characters are sequential and do not have breaks in between them.
+sub-string vs sub-sequence : in a sub-string, the characters do not have breaks between them. e.g from "abcbbd", we get "abc" sub-string.
+In sub-sequence, we can have have breaks between the characters e.g from  "abcbbd" we get "abcd" (skipped the repeating characters bb)
+
+Does case sensitivity matter ? No, assume all the characters will be in lowercase.
+
+Test cases
+"abccabb" returns 3 because of abc or cab
+"cccccc" returns 1
+"" returns 0
+"abcbda" returns 4 because of cbda
