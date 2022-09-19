@@ -35,3 +35,8 @@
   - [Problem, constraints and test cases](./0x07-longest_substring_without_repeating_characters/problem.txt)
   - [Brute force solution](./0x07-longest_substring_without_repeating_characters/brute-force.js)
   - [optimized solution](./0x07-longest_substring_without_repeating_characters/optimized.ins.js);
+
+8. Palindrome
+  - [Problem, constraints and test cases](./0x08-palindrome/problem.txt);
+  - [Brute force/optimized solution](./0x08-palindrome/brute-force.js);
+  - [Almost palindrome question](./0x08-palindrome/almost-palindrome.js);
