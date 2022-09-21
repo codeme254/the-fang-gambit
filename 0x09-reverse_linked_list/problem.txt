@@ -1,0 +1,8 @@
+Given a linked list, return it in reverse.
+
+1 -> 2 -> 3 -> 4 -> 5 -> null
+5 -> 4 -> 3 -> 2 -> 1 -> null
+
+If we receive a null list, we just return null.
+
+The function will have the head node as a parameter.

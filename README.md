@@ -40,3 +40,8 @@
   - [Problem, constraints and test cases](./0x08-palindrome/problem.txt);
   - [Brute force/optimized solution](./0x08-palindrome/brute-force.js);
   - [Almost palindrome question](./0x08-palindrome/almost-palindrome.js);
+
+10. Smallest difference
+  - [Problem, constraints and test cases](./0x10-smallest_difference/problem.txt);
+  - [Brute force solution](./0x10-smallest_difference/brute-force.js);
+  - [optimized solution](./0x10-smallest_difference/optimized.ins.js);
