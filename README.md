@@ -45,3 +45,8 @@
   - [Problem, constraints and test cases](./0x10-smallest_difference/problem.txt);
   - [Brute force solution](./0x10-smallest_difference/brute-force.js);
   - [optimized solution](./0x10-smallest_difference/optimized.ins.js);
+
+11. move element to the end
+  - [Problem, constraints and test cases](./0x11-move_element/problem.txt);
+  - [Brute force solution](./0x11-move_element/brute-force.js);
+  - [optimized solution](./0x11-move_element/optimized.ins.js);
