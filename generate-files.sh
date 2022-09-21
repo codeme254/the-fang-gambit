@@ -1,9 +1,10 @@
 #!/bin/bash
 
+echo "Give a directory name to the new directory: "
+read NEW_DIR
 
-mkdir "$FOLDERNAME"
-
-cd "$FOLDERNAME"
+mkdir $NEW_DIR
+cd $NEW_DIR
 
 touch problem.txt
 touch optimized.js
