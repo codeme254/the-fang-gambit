@@ -1,0 +1,11 @@
+Write a function that takes in an array of integers and returns a boolean representing whether the array is monotonic.
+An array is said to be monotonic if its elements, from the left to right are entirely non-increasing or entirely non-decreasing.
+Non-increasing elements aren't necessarily exclusively decreasing; they simply don't increase.
+Similarly, non-decreasing elements aren't necessarily exclusively increasing; they simply don't decrease.
+
+Note that empty arrays and arrays of one element are monotonic.
+
+example [-1, -5, -10, -1100, -1100, -1101, -1102, -9001] is monotonic and therefore return true
+[70, 60, 50, 40, 30, 15, 20, 10] is not monotonic and therefore return false.
+
+In other words, the question is asking if the array is strictly increasing or strictly decreasing

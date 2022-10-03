@@ -50,3 +50,8 @@
   - [Problem, constraints and test cases](./0x11-move_element/problem.txt);
   - [Brute force solution](./0x11-move_element/brute-force.js);
   - [optimized solution](./0x11-move_element/optimized.ins.js);
+
+12. monotonic array
+  - [Problem, constraints and test cases](./0x12-monotonic_array/problem.txt);
+  - [Brute force solution](./0x12-monotonic_array/brute-force.js);
+  - [optimized solution](./0x12-monotonic_array/optimized.ins.js);
