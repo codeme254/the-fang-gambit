@@ -55,3 +55,10 @@
   - [Problem, constraints and test cases](./0x12-monotonic_array/problem.txt);
   - [Brute force solution](./0x12-monotonic_array/brute-force.js);
   - [optimized solution](./0x12-monotonic_array/optimized.ins.js);
+
+
+# All the other Questions will have the same format, i.e
+- a text file containing the problem description, sample test cases and constraints.
+- A brute force file containing the solution to the problem in a brute force fashion/way of thinking.
+- An optimized.js file containing optimized solution of the problem
+- A optimized.ins.js which is either further optimization of the current optimization or a decent version of the current optimization eg factored code, good practices e.t.c.
