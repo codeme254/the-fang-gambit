@@ -1,0 +1,9 @@
+Given an integer x, return true if x is palindrome integer.
+An integer is palindrome when it reads the same backward and forward.
+
+121 is palindrome and 123 is not
+121 true
+-121 false
+10 false
+
+Follow up: can you solve it without converting the integer to a string
