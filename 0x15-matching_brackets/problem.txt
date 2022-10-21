@@ -1,0 +1,11 @@
+Given a string containing only parentheses, determine if it is valid.
+The string is valid if all parentheses close.
+
+{([])} - valid so return true
+{([])] - invalid so return false
+{([)]} - invalid so return false
+{[]()} - valid so return true
+
+Does an empty string count as valid? Yes return true if you get an empty string
+
+"" - valid so return true

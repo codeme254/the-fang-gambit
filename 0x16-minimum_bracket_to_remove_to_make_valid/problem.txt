@@ -1,0 +1,19 @@
+Given a string containing only round brackets '(' and ')' and lowercase characters, remove the least amount of brackets so that the string is valid.
+A string is considered valid if it is empty or if there are brackets, they all close.
+
+a)bc(d) minimum amount of brackets to remove is 1
+(ab(c)a minimum amount of brackets to remove is 1
+))(( minimum amoun tof brackets to remove is 4 (all of them)
+
+What do we return from our algorithm?
+return a valid string with fewest brackets removed.
+
+Will there be spaces in the string.
+No the string only contains lowercase characters and '(' and ')'
+
+Is a string containing only lowercase characters valid?
+Yes, you don't need any brackets for a string to be valid.
+
+a)bc(d) - abc(d)
+(ab(c)d - ab(c)d or (abc)d
+))(( - ""
