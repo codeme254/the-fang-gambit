@@ -1,0 +1,10 @@
+Implement a class queue using stacks. The queue methods you need to implement are enqueue, dequeue, peek and empty
+
+enqueue: append a value to the end of the queue.
+dequeue: Remove a value at the start of the queue.
+peek: return a value at the start of the queue.
+empty: return a boolean value of whether the queue is empty or not.
+
+Constraints:
+Do the queue methods we have to implement need to perform at the same complexity of a real queue.?
+No but they should be as performant as possible
